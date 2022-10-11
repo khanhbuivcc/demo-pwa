@@ -1,9 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/demo-pwa/'
-    : '/',
+  publicPath: '/demo-pwa/',
   transpileDependencies: true,
   pwa: {
     name: 'Demo pwa app',
