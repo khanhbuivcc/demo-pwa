@@ -1,7 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 
 module.exports = defineConfig({
-  publicPath: '/demo-pwa/',
   transpileDependencies: true,
   pwa: {
     name: 'app cua khanh',
