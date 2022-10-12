@@ -12,7 +12,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 const messaging = firebase.messaging();
 
